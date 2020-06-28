@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <header>
+    <title>technicaldocumentation</title>
+  </header>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+  <main id="main-doc">
+    <section id="main section">
+      <nav id="nav-bar">
+        <li><a href="#JSintroduction">JSintroduction</a></li>
+        <li><a href="#Javascriptandjava">Javascriptandjava</a></li>
+        <li><a href="#Variables">variables</a></li>
+        <li><a href="#declaringvariables">declaringvariables</a></li>
+        <li><a href="#constants">constants</a></li>
+        <li><a href="#datatypes">datatypes</a></li>
+      </nav>
+        <section id="main section"
+      <header>
+        JS Introduction
+      </header>
+      <p>
+        JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+      </p>
+      <p>
+        JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects
+      </p>
+    </section>
+        <section id="main section">
+      <header>
+        Javascript and java
+      </header>
+      <p>
+        JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript
+        </p>
+        </section>
+          <section id="main section">
+        <header>
+          Variables
+        </header>
+        <p>
+          You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.
+        </p>
+        </section>
+          <section id="main section">
+        <header>
+          Declaring Variables
+        </header>
+        <p>
+          You can declare a variable in three ways:
+          With the keyword var. For example,
+        <code>
+          var x = 42.
+        </code>
+          By simply assigning it a value. For example,
+        <code>
+         x = 42.
+       </code>
+       This
+        always declares a global variable. It generates a strict JavaScript
+        warning. You shouldn't use this variant.
+      </p>
+      <p>
+        With the keyword let. For example,
+        <code>
+          let y = 13.
+        </code>
+        This syntax can be used to declare a block scope local variable. See Variable scope
+        below.
+        </p>
+        <p>
+          This syntax can be used to  declare both local and global variables.
+        </p>
+        </section>
+        <header>
+          <section id="main section">
+        Constants
+        </header>
+        <p>
+         you can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.
+       </p>
+       <code>
+        const PI = 3.14;
+       </code>
+       <p>
+       You cannot declare a constant with the same name as a function or
+       variable in the same scope. For example:
+       </p>
+      <code>
+       // THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS WILL
+       CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements}
+       </code>
+     <code>
+       const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";
+     </code>
+     </section>
+     <section id="main section">
+       <header>
+         Datatypes
+       </header>
+       <p>
+         The latest ECMAScript standard defines seven data types.
+         Although these data types are a relatively small amount, they enable you to perform useful functions with your applications. Objects and functions are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.
+       </p>
+       </section>
+       </head>
